@@ -9,12 +9,12 @@ int a=1;
 int main(void)
 {
 	
-  LED_Init();
+        LED_Init();
 	Serial_Init();
 
 	while (1)
 	{
-    Getstatus_Init();
-  }
+           Getstatus_Init();
+        }
 }
 
